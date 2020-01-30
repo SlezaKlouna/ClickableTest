@@ -115,6 +115,10 @@
         left: 5.5px;
     }
 
+    .number-one::before, .number-two::before, .number-three::before{
+        top: 9px;
+    }
+
     .feachers{
         height: 60vh;
         display: flex;

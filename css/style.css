@@ -284,7 +284,8 @@ a{
 }
 
 .button.animate-button {
-    animation: button-outer 3000ms infinite;
+    /*animation: button-outer 3000ms infinite;*/
+    animation: button-outer 800ms infinite;
 }
 .button.is-animating::before {
      animation: button-inner 3000ms infinite;
@@ -462,7 +463,7 @@ a{
     content: '1';
     position: absolute;
     left: 18px;
-    top: 8px;
+    top: 4px;
     z-index: 3;
     font-size: 40px;
     color: #ffc539;
