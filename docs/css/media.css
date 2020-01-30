@@ -1,0 +1,164 @@
+/* Phone */
+
+@media only screen and (max-width: 1000px) {
+    .projector{ display: none }
+    .wrapper {
+        width: 100%;
+        margin-left: 0;
+        /*flex-direction: column;*/
+    }
+    .header{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        border-bottom: none;
+    }
+
+    .header-content{
+        display: none;
+    }
+    .logo img{
+        width: 100%;
+    }
+
+    .main-content {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .main-content__text {
+        text-transform: uppercase;
+        width: 80%;
+        text-align: center;
+    }
+
+    .bonus{
+        font-size: 80px;
+    }
+
+    .players{
+        display: none;
+    }
+
+    .main-player img{
+        width: 35%;
+    }
+
+    .main-player{
+        left: 15%;
+        top: 51%;
+        right: auto;
+        z-index: -1;
+    }
+
+    .tractor img{
+        width: 85%;
+    }
+
+    .tractor{
+        left: 15%;
+        top: 43%;
+        z-index: -2;
+    }
+
+    .replenish{
+        width: 100%;
+        background: none;
+        margin-top: 180px;
+    }
+
+    .steps-gradient{
+        height: 40vh;
+        background: radial-gradient(circle, rgba(255,255,255,0) 5%, rgba(0,0,0,0.8) 100%);
+    }
+
+    .steps{
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+    }
+
+    .content-block, .content-block:last-child{
+        width: 70%;
+    }
+
+    .arrows-block{
+        display: none;
+    }
+
+    .step-content{
+        width: 100%;
+    }
+
+    .step:after{
+        top: -17.5px;
+    }
+
+    .feachers{
+        height: 60vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .feacher{
+        width: 80%;
+        justify-content: flex-start;
+        margin: 5px 0;
+    }
+
+    .feacher-image, .feacher-image img, #live{
+        width: initial;
+    }
+
+    .feacher-image{
+        margin-left: 10%;
+    }
+
+    .feachers-content{
+        height: 50vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .feacher-text{
+        margin-left: 30px;
+        margin-right: 29%;
+        font-size: 13px;
+        line-height: 18px;
+        padding: 10px 0;
+        box-sizing: border-box;
+    }
+
+    .pay{
+        flex-direction: row;
+        height: 40vh;
+    }
+
+    .pay-content{
+        flex-wrap: wrap;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .adaptiv-img{
+        margin: 20px;
+    }
+
+    .footer{
+        height: 15vh;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+}

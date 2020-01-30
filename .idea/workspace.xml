@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d4987dc-9c4a-4902-bb69-9f616afb6cf4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/scss/variables.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/css/media.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/js/main.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/scss/style.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/css/style.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../../Обучение/practice/scss/mixins.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/css/fonts.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1X4kiMxXmXdrFogwL9tHrcrT48V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d4987dc-9c4a-4902-bb69-9f616afb6cf4" name="Default Changelist" comment="" />
+      <created>1580312880359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580312880359</updated>
+      <workItem from="1580312882369" duration="20028000" />
+      <workItem from="1580373117218" duration="39562000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="371" y="137" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580400062603">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="371" y="137" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689@0.0.1280.689" timestamp="1580400062603" />
+    <state x="272" y="121" width="737" height="481" key="EditFileWatcherDialog" timestamp="1580315869684">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="272" y="121" width="737" height="481" key="EditFileWatcherDialog/0.0.1280.689@0.0.1280.689" timestamp="1580315869684" />
+    <state x="234" y="6" key="scopes" timestamp="1580315861058">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="234" y="6" key="scopes/0.0.1280.689@0.0.1280.689" timestamp="1580315861058" />
+  </component>
+</project>
