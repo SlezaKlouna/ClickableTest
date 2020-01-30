@@ -2,52 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d4987dc-9c4a-4902-bb69-9f616afb6cf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/media.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/style-dist.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/font/GothaProBla.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/font/GothaProBlaIta.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/font/GothaProBol.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/font/GothaProBolIta.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/font/GothaProIta.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/font/GothaProLig.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/font/GothaProLigIta.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/font/GothaProMed.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/font/GothaProMedIta.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/font/GothaProNarBol.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/font/GothaProNarMed.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/font/GothaProReg.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/arrow-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/conf-left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/conf-right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/conf-top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/first-projector.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/icon/diagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/icon/honor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/icon/live.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/icon/money.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/icon/privat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/main-player.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/pay/liqpay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/pay/money.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/pay/mscard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/pay/privat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/pay/sofort.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/pay/visa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/player-four.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/player-one.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/player-three.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/player-two.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/second-projector.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/tractor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580312880359</updated>
       <workItem from="1580312882369" duration="20028000" />
-      <workItem from="1580373117218" duration="41392000" />
+      <workItem from="1580373117218" duration="42847000" />
     </task>
     <servers />
   </component>

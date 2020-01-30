@@ -111,7 +111,8 @@
     }
 
     .step:after{
-        top: -17.5px;
+        top: 4.5px;
+        left: 5.5px;
     }
 
     .feachers{
@@ -144,8 +145,8 @@
     .feacher-text{
         margin-left: 30px;
         margin-right: 29%;
-        font-size: 13px;
-        line-height: 18px;
+        font-size: 8px;
+        line-height: 15px;
         padding: 10px 0;
         box-sizing: border-box;
     }
