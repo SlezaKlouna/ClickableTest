@@ -50,12 +50,13 @@ a{
 .bg{
     width: 100vw;
     height: 100vh;
-    /*margin-left: initial;*/
     background-image: url("../img/bg.png");
+    /*transition: background-position .5s ease-out;*/
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    /*background-position: -100px -100px;*/
     position: absolute;
     top: 0;
     z-index: -2;
@@ -192,16 +193,12 @@ a{
     width: 100%;
     height: 75vh;
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .main-content__text{
     text-transform: uppercase;
     width: 40%;
-}
-
-.text-color__green{
-    color: #00d15d;
 }
 
 .bonus{
@@ -240,6 +237,12 @@ a{
     width: 180%;
 }
 
+.replenish p{
+    color: #00d15d;
+    /*letter-spacing: 2.3px;*/
+    font-size: 23px;
+}
+
 
 /* BUTTON */
 .button{
@@ -261,38 +264,10 @@ a{
     content: "";
 }
 
-.button::before {
-    top: 0;
-    left: 0;
-    width: 1em;
-    height: 1em;
-    background-color: rgba(#fff, 0.1);
-    border-radius: 100%;
-    opacity: 1;
-    transform: translate3d(0, 0, 0) scale(0);
-}
-
-.button::after {
-    top: 0.25em;
-    left: 0.25em;
-    width: 0.5em;
-    height: 0.5em;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transform: translate3d(0, 0, 0);
-}
 
 .button.animate-button {
     /*animation: button-outer 3000ms infinite;*/
     animation: button-outer 800ms infinite;
-}
-.button.is-animating::before {
-     animation: button-inner 3000ms infinite;
- }
-
-.button.is-animating::after {
-     animation: button-icon 3000ms infinite;
 }
 
 
@@ -330,32 +305,7 @@ a{
     }
 }
 
-@keyframes button-icon {
-    0% { transform: translate3d(0em, 0, 0); }
-    2% { transform: translate3d(0.01em, 0, 0); }
-    4% { transform: translate3d(-0.01em, 0, 0); }
-    6% { transform: translate3d(0.01em, 0, 0); }
-    8% { transform: translate3d(-0.01em, 0, 0); }
-    10% { transform: translate3d(0.01em, 0, 0); }
-    12% { transform: translate3d(-0.01em, 0, 0); }
-    14% { transform: translate3d(0.01em, 0, 0); }
-    16% { transform: translate3d(-0.01em, 0, 0); }
-    18% { transform: translate3d(0.01em, 0, 0); }
-    20% { transform: translate3d(-0.01em, 0, 0); }
-    22% { transform: translate3d(0.01em, 0, 0); }
-    24% { transform: translate3d(-0.01em, 0, 0); }
-    26% { transform: translate3d(0.01em, 0, 0); }
-    28% { transform: translate3d(-0.01em, 0, 0); }
-    30% { transform: translate3d(0.01em, 0, 0); }
-    32% { transform: translate3d(-0.01em, 0, 0); }
-    34% { transform: translate3d(0.01em, 0, 0); }
-    36% { transform: translate3d(-0.01em, 0, 0); }
-    38% { transform: translate3d(0.01em, 0, 0); }
-    40% { transform: translate3d(-0.01em, 0, 0); }
-    42% { transform: translate3d(0.01em, 0, 0); }
-    44% { transform: translate3d(-0.01em, 0, 0); }
-    46% { transform: translate3d(0em, 0, 0); }
-}
+
 
 /* ---- /BUTTON ---- */
 
@@ -367,7 +317,7 @@ a{
     position: absolute;
     right: 450px;
     top: 230px;
-    z-index: 2;
+    z-index: 3;
 }
 
 .tractor img{
@@ -378,6 +328,124 @@ a{
     position: absolute;
     left: 580px;
     top: 150px;
+    z-index: 2;
+}
+
+.money{
+    position: relative;
+    top: 40%;
+    left: 340px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+
+.money img{
+    width: 60%;
+}
+
+#money1, #money2, #money3, #money4, #money5,#money6{
+    position: absolute;
+    width: 60%;
+    height: 60%;
+}
+
+#money1{
+    -webkit-animation: moveFirstHrivna 2.5s linear infinite;
+    animation: moveFirstHrivna 2.5s linear infinite;
+}
+
+#money2{
+    -webkit-animation: moneyMove 3s linear infinite;
+    animation: moneyMove 3s linear infinite;
+}
+
+#money3{
+    -webkit-animation: moveThirdHrivna 2s linear infinite;
+    animation: moveThirdHrivna 2s linear infinite;
+}
+
+#money4{
+    -webkit-animation: moveFourthHrivna 2.2s linear infinite;
+    animation: moveFourthHrivna 2.2s linear infinite;
+}
+#money5{
+    -webkit-animation: moveFifthHrivna 2.8s linear infinite;
+    animation: moveFifthHrivna 2.8s linear infinite;
+}
+
+#money6{
+    -webkit-animation: moveSixthHrivna 1.7s linear infinite;
+    animation: moveSixthHrivna 1.7s linear infinite;
+}
+
+/*#money8{*/
+/*    -webkit-animation: moveFourthtHrivna 2.8s linear infinite;*/
+/*    animation: moveFourthtHrivna 2.8s linear infinite;*/
+/*}*/
+
+@keyframes moveFirstHrivna {
+    0%{bottom: 70px;}
+    5%{bottom: 100px; right: 70px; opacity: 1;}
+    10% {bottom:200px; right:100px; transform:  translateY(20px); opacity: .7;}
+    25% {transform:  translateY(-20px); transform: skewY(-20deg); opacity: .6;bottom: 150px; scale(0.6); }
+    40%{bottom:120px; right:150px;  scale(0.3); opacity: .4;}
+    60%{bottom:100px;   scale(0.1); opacity: .2;}
+    80%{bottom:70px; opacity: 0}
+    100%{bottom:50px; opacity: 0}
+}
+
+@keyframes moneyMove{
+    0%{bottom: 70px;}
+    5%{bottom: 100px; left: 5%; opacity: 1;}
+    10% {bottom:200px; right:10%; transform:  translateY(20px); opacity: .7}
+    25% {transform:  translateY(-20px); transform: skewY(60deg); opacity: .6;bottom: 150px; scale(0.6);}
+    40%{bottom:120px; right:20%;  scale(0.3); opacity: .4}
+    60%{bottom:100px; left:20%;  scale(0.1); opacity: .2}
+    80%{bottom:70px; left:10%; opacity: 0}
+    100%{bottom:50px; left:5%; opacity: 0}
+}
+
+@keyframes moveThirdHrivna {
+    0%{bottom: 70px;}
+    5%{bottom: 100px; left: 50px; opacity: 1;}
+    10% {bottom:210px; right:150px; transform:  translateY(20px); opacity: .7}
+    25% {transform:  translateY(-20px); transform: skewY(40deg); opacity: .6;bottom: 170px; scale(0.6);}
+    40%{bottom:150px; right:250px;  scale(0.3); opacity: .4}
+    60%{bottom:120px; left:150px;  scale(0.1); opacity: .2}
+    80%{bottom:70px; left:170px; opacity: 0}
+    100%{bottom:50px; left:180px; opacity: 0}
+}
+
+@keyframes  moveFourthHrivna{
+    0%{bottom: 70px;}
+    5%{bottom: 110px; left: 20px; opacity: 1;}
+    10% {bottom:210px; right:100px; transform:  translateY(40px); opacity: .7}
+    25% {transform:  translateY(-30px); transform: skewY(40deg); opacity: .6;bottom: 150px; scale(0.6);}
+    40%{bottom:120px; right:150px;  scale(0.3); opacity: .4}
+    60%{bottom:100px; left:150px;  scale(0.1); opacity: .2}
+    80%{bottom:70px; left:170px; opacity: 0}
+    100%{bottom:50px; left:200px; opacity: 0}
+}
+@keyframes  moveFifthHrivna{
+    0%{bottom: 70px;}
+    5%{bottom: 110px; left: 20px; opacity: 1;}
+    10% {bottom:210px; right:100px; transform:  translateY(40px); transform: rotate(720deg); opacity: .7}
+    25% {transform:  translateY(-30px); transform: skewY(40deg); opacity: .6;bottom: 150px; scale(0.6);}
+    40%{bottom:120px; right:150px;  scale(0.3); opacity: .4}
+    60%{bottom:100px; left:150px;  scale(0.1); opacity: .2}
+    80%{bottom:70px; left:170px; opacity: 0}
+    100%{bottom:50px; left:200px; opacity: 0}
+}
+@keyframes moveSixthHrivna {
+    0%{bottom: 70px;}
+    5%{bottom: 150px; right: 70px; opacity: 1;}
+    10% {bottom:220px; right:120px; transform:  translateY(20px); opacity: .7;}
+    25% {transform:  translateY(20px); transform: skewY(20deg); opacity: .6; bottom: 170px; scale(0.7); }
+    40%{bottom:150px; right:200px;  scale(0.3); opacity: .4;}
+    60%{bottom:120px;   scale(0.1); opacity: .2;}
+    80%{bottom:70px; opacity: 0}
+    100%{bottom:50px; opacity: 0}
 }
 
 /* ---- /MAIN CONTENT */
@@ -391,6 +459,7 @@ a{
     /*background: radial-gradient(circle, rgba(256, 256, 256,0) 0%, rgba(0,0,0,1) 100%);*/
     background: linear-gradient(90deg, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 100%);
     position: absolute;
+    /*margin-top: -80px;*/
 }
 
 .steps{
@@ -399,6 +468,7 @@ a{
     background-image: url(../img/arrow-bg.png);
     background-size: cover;
     box-sizing: border-box;
+    margin-top: 50px;
     /*background: radial-gradient(circle, rgba(11,159,6,1) 0%, rgba(0,0,0,1) 100%);*/
 }
 

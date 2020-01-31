@@ -70,10 +70,14 @@
         z-index: -2;
     }
 
+    .money{
+        display: none;
+    }
+
     .replenish{
         width: 100%;
         background: none;
-        margin-top: 240px;
+        margin-top: 200px;
     }
 
     .button{
@@ -175,6 +179,26 @@
         box-sizing: border-box;
         text-align: center;
         font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .main-content{
+        height: 100vh;
+    }
+    .replenish{
+        margin-top: 190px;
+    }
+    .tractor{
+        left: 10%;
+        top: 56%;
+    }
+    .tractor img{
+        width: 110%;
+    }
+    .main-player{
+        left: -20px;
+        top: 40%;
     }
 
 
