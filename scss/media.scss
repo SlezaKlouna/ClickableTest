@@ -1,6 +1,6 @@
 /* Phone */
 
-@media only screen and (max-width: 1000px)/* and (min-width: 400px)*/{
+@media only screen and (max-width: 1000px){
   .projector, .animate, .header-content, .wrapper, .players, .money{ display: none; }
 
   .bg{
@@ -83,6 +83,7 @@
       width: 90%;
       background: none;
       font-size: 55px;
+      text-align: center;
 
       .text-color__green{
         font-size: 64px;
@@ -169,9 +170,7 @@
   .feacher{
     width: 80%;
     justify-content: flex-start;
-    //margin: 5px 0;
     padding-left: 90px;
-    //margin: 0;
   }
 
   .feacher-image, .feacher-image img, #live{
