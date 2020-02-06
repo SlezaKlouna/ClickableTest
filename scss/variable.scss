@@ -1,0 +1,76 @@
+$mainColor : #ffff;
+$footerBg : #000;
+
+// FONTS
+$mainFont : 'Gotham Pro Black';
+$buttonFont : 'Gotham Pro Bold';
+
+//BODY
+
+$mainBgWidth : 100%;
+$mainBgHeight : 100vh;
+$mainBgImage : url(../img/bg.png);
+
+//HEADER
+$headerTextSz : 11px;
+$headerTextWeight : 900;
+
+// MAIN CONTENT
+$mainTitleTextSz : 80px;
+$mainTitleTextW : 900;
+$shadowText : 1px 1px 3px #353535;
+
+$bonusBg : linear-gradient(180deg, rgba(0,223,120,1) 0%, rgba(0,189,52,1) 60%);
+$bonusColor: #00d15d;
+$persentSize : 100px;
+$bonusLH : 80px;
+
+$depositTextSz : 20px;
+
+$replenishTextSz : 17px;
+$replenishTextSzPar : 20px;
+$replenishBg : radial-gradient(circle, rgba(0,0,0,0.5) 60%, rgba(255,255,255,0) 100%);
+$replenishBgwidth: 180%;
+
+//BUTTONS
+$buttonBg : linear-gradient(180deg, rgba(250,215,113,1) 0%, rgba(234,168,28,1) 73%);
+$buttonTextShadow : 2px 2px 3px rgba(255,255,255,0.1);
+$buttonBoxShadow : rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+$buttonFW : 700;
+$buttonTextSz : 18px;
+
+//STEPS
+$stepBlockW : 100%;
+$stepBlockH : 16vh;
+$stepBgImg : url(../img/arrow-bg.png);
+
+$stepContentW : 60%;
+$stepContentBlockW : 34%;
+
+$numberFontSz : 40px;
+
+// FEACHER
+$feachersWidth : 100%;
+$feachersHeight : 18vh;
+
+$feacherContentW : 57%;
+
+$feacherW : 19%;
+$feacherH : 8vh;
+$feacherBg : rgba(255,255,255,.2);
+$feacherImageW : 90%;
+$feacherTextW : 100%;
+
+//PAY
+$payHeight : 10vh;
+$payContentW : 50%;
+$borderColor : rgba(256, 256, 256, .6);
+$payImgWidth : 15%;
+
+//FOOTER
+$footerW : 100%;
+$footerH : 9vh;
+$footerColor : rgba(82, 82, 82, 0.27);
+$footerFontSz: 6px;
+$footerFontWeight : 500;
+

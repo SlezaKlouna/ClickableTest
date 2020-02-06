@@ -1,0 +1,55 @@
+@mixin mainFont($fontSz, $fontColor : $mainColor, $fontW : 900) {
+  font-style: italic;
+  font-size: $fontSz;
+  text-transform: uppercase;
+  color: $fontColor;
+  font-weight: $fontW;
+}
+
+@mixin button{
+  font-family: $mainFont;
+  padding: 15px 38px;
+  border-radius: 15px;
+  background: $buttonBg;
+  text-align: center;
+  font-size: $buttonTextSz;
+  color: $footerBg;
+  font-weight: $buttonFW;
+  font-style: italic;
+  text-shadow: $buttonTextShadow;
+  box-shadow: $buttonBoxShadow;
+  border: none;
+  text-transform: uppercase;
+  width: 90%;
+}
+
+@mixin steps{
+  font-family: $mainFont;
+  font-style: italic;
+  width: $stepBlockW;
+  height: $stepBlockH;
+  background-image: $stepBgImg;
+  background-size: cover;
+  box-sizing: border-box;
+  margin-top: 50px;
+  color: $mainColor;
+}
+
+@mixin feacher{
+  width: $feacherContentW;
+  height: 100%;
+  margin-left: 21.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin feachersText {
+  text-transform: capitalize;
+  font-family: 'GothaProIta';
+  font-style: italic;
+  font-size: 10px;
+  line-height: 11px;
+  font-weight: 700;
+  color: $mainColor;
+}

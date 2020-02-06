@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var banner = $(".main-content");
+    var banner = $(".main-block");
     var items = $(".animate");
 
     function showAllObjects(object) {
@@ -26,17 +26,17 @@ $(document).ready(function () {
     moveAll(items);
 });
 
-(function(){
+(function () {
     var body = document.querySelector('.bg'),
-        mouseMove = document.querySelector('.main-content');
-        startX = -20,
-        startY = -20,
-        w = document.documentElement.offsetWidth;
+        mouseMove = document.querySelector('.main-block'),
+        startX = -10,
+        startY = -10,
+        w = document.documentElement.offsetWidth,
         h = document.documentElement.offsetHeight;
 
-    mouseMove.addEventListener('mousemove', function(evt){
+    mouseMove.addEventListener('mousemove', function (evt) {
         var posX = Math.round(evt.clientX / w * startX)
-         var posY = Math.round(evt.clientY / h * startY)
+        var posY = Math.round(evt.clientY / h * startY)
         body.style.backgroundPosition = posX + 'px ' + posY + 'px';
     });
 })()
