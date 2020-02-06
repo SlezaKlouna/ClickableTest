@@ -2,62 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86db27b3-5195-474e-8c13-deeb3334e741" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style-dist.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothaProBla.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothaProBlaIta.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothaProBol.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothaProBolIta.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothaProIta.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothaProLig.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothaProLigIta.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothaProMed.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothaProMedIta.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothaProNarBol.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothaProNarMed.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothaProReg.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/arrow-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/conf-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/conf-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/conf-top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/first-projector.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/honor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/live.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/money.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/privat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/main-player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/money/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/money/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pay/liqpay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pay/money.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pay/mscard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pay/privat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pay/sofort.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pay/visa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/player-four.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/player-one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/player-three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/player-two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/second-projector.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tractor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/variable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style-dist.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-dist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +66,7 @@
       <updated>1580849569168</updated>
       <workItem from="1580849570723" duration="255000" />
       <workItem from="1580924451033" duration="16191000" />
-      <workItem from="1580978961948" duration="1490000" />
+      <workItem from="1580978961948" duration="14552000" />
     </task>
     <servers />
   </component>

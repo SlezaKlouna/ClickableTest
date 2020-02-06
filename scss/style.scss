@@ -123,8 +123,8 @@ body {
 /* ---- /CONFITY ---- */
 
 .bg {
-  width: 100%;
-  height: 100vh;
+  width: $mainBgWidth;
+  height: $mainBgHeight;
   background-image: $mainBgImage;
   background-size: cover;
   background-position: center center;
@@ -133,6 +133,17 @@ body {
   top: 0;
   left: 0;
   z-index: -2;
+  //position: relative;
+
+  &:after{
+    content: "";
+    position: absolute;
+    //position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle, rgba(255,255,255,0) 80%, rgba(0,0,0,1) 100%);
+    background-color: rgba(0,0,0,0.3);
+  }
 }
 
 main {
@@ -165,13 +176,12 @@ main {
   }
 }
 
-.wrapper {
+.wrapper, .wrapper-adaptive {
   width: 100%;
   display: flex;
-  //overflow: hidden;
 }
 
-.text-content {
+.text-content, .replenish-block {
   width: 40%;
   padding-left: 18px;
 
@@ -191,7 +201,6 @@ main {
 
     &:before{
       content: "100%";
-      display: block;
       position: absolute;
       text-shadow: none;
       background: $bonusBg;
@@ -202,7 +211,7 @@ main {
     }
   }
 
-  .doposit {
+  .deposit {
     @include mainFont($depositTextSz, $mainColor, $mainTitleTextW);
     margin-top: 15px;
     letter-spacing: 2.5px;
@@ -224,7 +233,7 @@ main {
   }
 
   .button {
-    font-family: 'Gotham Pro Bold';
+    //font-family: $buttonFont;
     @include button;
     margin-top: 20px;
     letter-spacing: 1px;
@@ -236,8 +245,8 @@ main {
     }
   }
 }
-
-.button.animate-button {
+.wrapper-adaptive {display: none;}
+.button.animate-button, .replenish-block.button.animate-button {
   animation: button-outer 800ms infinite;
 }
 
