@@ -1,1 +1,1 @@
-@font-face{font-family:"Gotham Pro Bold";src:url("../fonts/GothaProBol.otf") format("otf");font-style:normal;font-weight:700}@font-face{font-family:"Gotham Pro Black";src:url("../fonts/GothaProBla.otf") format("otf");font-style:normal;font-weight:900}
+@font-face{font-family:"Gotham Pro Bold";src:url("../fonts/GothaProBol.otf") format("opentype");font-style:normal;font-weight:700;font-display:fallback}@font-face{font-family:"Gotham Pro Black";src:url("../fonts/GothaProBla.otf") format("opentype");font-style:normal;font-weight:900}
