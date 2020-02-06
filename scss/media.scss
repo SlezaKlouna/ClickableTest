@@ -18,8 +18,14 @@
     padding-top: 20px;
     border-bottom: none;
 
-    .logo img{
+    .logo {
+      display: flex;
       width: 100%;
+      justify-content: center;
+
+      img {
+        width: 40%;
+      }
     }
   }
 
