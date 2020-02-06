@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/fonts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/variable.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
       <updated>1580849569168</updated>
       <workItem from="1580849570723" duration="255000" />
       <workItem from="1580924451033" duration="16191000" />
-      <workItem from="1580978961948" duration="20954000" />
+      <workItem from="1580978961948" duration="23890000" />
     </task>
     <servers />
   </component>
@@ -74,6 +75,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="93" y="93" width="1095" height="504" key="DiffContextDialog" timestamp="1581006158877">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="93" y="93" width="1095" height="504" key="DiffContextDialog/0.0.1280.689@0.0.1280.689" timestamp="1581006158877" />
     <state x="421" y="102" key="FileChooserDialogImpl" timestamp="1580926426328">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
